@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500;700&family=Rajdhani:wght@700&display=swap');
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input{
+  height: 35px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 8px;
+  outline: none;
+  border: 1px solid #d3d3d3;
+}
+
+.input{
+  font-family: 'inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input:focus{
+  border: 1px solid #3982E4;
+  color: #0f0f0f;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4a8ce4;
+  text-decoration: none;
+  width: 150px;
+  height: 28px;
+  padding: 5px;
+}
+
+.link{
+  color: #f1f1f1;
+  font-family: 'inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.link:hover{
+  background-color: #3982E4;
+}
