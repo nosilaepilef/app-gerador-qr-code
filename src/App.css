@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500;700&family=Rajdhani:wght@700&display=swap');
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.qrcode{
+  background-color: #29292e;
+  border: 2px solid #30363d;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+.input{
+  background-color: #29292e;
+  height: 35px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin: 24px 0;
+  padding: 10px 15px;
+  outline: none;
+  border: 2px solid #30363d;
+}
+
+.input{
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.input:focus{
+  border: 2px solid #3982E4;
+  color: #fff;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4a8ce4;
+  text-decoration: none;
+  max-width: 300px;
+  width: 100%;
+  height: 28px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.link{
+  color: #f1f1f1;
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.link:hover{
+  background-color: #3982E4;
+}
